@@ -1,6 +1,6 @@
 import cv2
-import ipcam
-import configs
+from ScrabbleCV import ipcam
+from ScrabbleCV import configs
 import re
 import os
 
@@ -10,8 +10,8 @@ class FileSource(object):
   def start(self):
     pass
 
-  def read(self):
-    img = cv2.imread('scrabble_images/IMG_20141025_164052.jpg')
+  def read(self, filePath):
+    img = cv2.imread(filePath)
     small = cv2.resize(img, (720,960))
     return small
 

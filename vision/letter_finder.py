@@ -1,7 +1,7 @@
 import cv2
-import configs
+from ScrabbleCV import configs
 
-from .util import *
+from ScrabbleCV.vision.util import *
 
 
 class LetterFinder:

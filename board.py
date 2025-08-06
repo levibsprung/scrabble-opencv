@@ -1,6 +1,6 @@
-from scoring import *
-import twl  #for auto blank resolution
-import configs
+from ScrabbleCV.scoring import *
+from ScrabbleCV import twl  #for auto blank resolution
+from ScrabbleCV import configs
 
 
 class Board:

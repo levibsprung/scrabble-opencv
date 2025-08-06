@@ -1,5 +1,5 @@
 import math
-import configs
+from ScrabbleCV import configs
 import cv2
 
 

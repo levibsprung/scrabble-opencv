@@ -1,9 +1,9 @@
 import cv2
 import numpy as np
-import configs
-from board import Board
+from ScrabbleCV import configs
+from ScrabbleCV.board import Board
 
-from .util import *
+from ScrabbleCV.vision.util import *
 
 
 class BlankFinder:

@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 
-import configs
-from .util import *
+from ScrabbleCV import configs
+from ScrabbleCV.vision.util import *
 
 
 class Corners:

@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
-import configs
+from ScrabbleCV import configs
 
-from .util import *
+from ScrabbleCV.vision.util import *
 
 
 def crop_board(frame, corners):

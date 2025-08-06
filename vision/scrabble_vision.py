@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
-import configs
+from ScrabbleCV import configs
 from threading import Thread, Lock, Event
-from board import Board, AveragedBoard
+from ScrabbleCV.board import Board, AveragedBoard
 import traceback
 import importlib
 import time

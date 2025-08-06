@@ -21,7 +21,7 @@ MAX_FPS = 4
 DEBUG_CORNERS = False
 
 # Board has red circle stickers on the outline
-BOARD_MODE_RED_CIRCLES = False
+BOARD_MODE_RED_CIRCLES = True
 
 # Board has a red boarder (newer scrabble board)
 BOARD_MODE_RED_BORDER = False
@@ -29,7 +29,7 @@ BOARD_MODE_RED_BORDER = False
 # Board has ArUco fiducial markers on corners. This is going to be the most
 # reliable detection method. Print out corner_markers.pdf and apply these
 # labels to the corners.
-BOARD_MODE_MARKERS = True
+BOARD_MODE_MARKERS = False
 
 CORNER_ERODE_RAD = 3
 CORNER_DILATE_RAD = 3

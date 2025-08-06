@@ -1,14 +1,14 @@
 import cv2
 import numpy as np
-import configs
-from board import Board
+from ScrabbleCV import configs
+from ScrabbleCV.board import Board
 import os
 
 
-from .util import *
+from ScrabbleCV.vision.util import *
 
-DATASET_PATH = "vision/dataset/"
-MODEL_PATH = "vision/dataset/model.yml"
+DATASET_PATH = "ScrabbleCV/vision/dataset/"
+MODEL_PATH = "ScrabbleCV/vision/dataset/model.yml"
 
 
 def to_sample(img):
